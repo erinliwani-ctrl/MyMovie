@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>MyMovie - Movie Planner</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2503/2503508.png" />
+</head>
+
+<body>
+  <h1>🎬 MyMovie - Movie Planner</h1>
+  <button id="viewWatchlistBtn">
+    📽️ View My Watchlist
+  </button>
+  <h2>Search Your Favourite Movies</h2>
+  <input type="text" id="movie" placeholder="Enter movie title" />
+  <button id="searchBtn">🔍 Search Movie</button>
+  <h2 id="resultTitle"></h2>
+  <div id="result"></div>
+  <h2>🎯 Movie Recommendation</h2>
+  <select id="genreSelect">
+    <option value ="">-- Select Movie Genre --</option>
+    <option value="28">Action</option>
+    <option value="12">Adventure</option>
+    <option value="16">Animation</option>
+    <option value="35">Comedy</option>
+    <option value="80">Crime</option>
+    <option value="18">Drama</option>
+    <option value="14">Fantasy</option>
+    <option value="27">Horror</option>
+    <option value="10749">Romance</option>
+    <option value="878">Science Fiction</option>
+    <option value="53">Thriller</option>
+    
+  </select>
+  <button id="recommendBtn">✨ Get Recommendation</button>
+
+  <div id="suggestion"></div>
+
+  <script src="index.js"></script>
+
+</body>
+</html>
